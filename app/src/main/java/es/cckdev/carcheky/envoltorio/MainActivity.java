@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
 //        myWebView.loadUrl("file:///android_asset/web/index.html");
         myWebView.loadUrl("http://happy2friend.com");
+
         myWebView.getSettings().setLoadWithOverviewMode(true);
         myWebView.getSettings().setUseWideViewPort(true);
     }
